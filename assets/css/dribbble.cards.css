@@ -1,0 +1,158 @@
+
+/* cards */
+@media (min-width: 600px){
+    .card-one{
+        background: rgb(255, 255, 255);
+        width: 300px;
+        box-shadow: 0 0 10px 0 rgb(238, 238, 238);
+        background: white;
+        border-radius: 5px;
+        border: solid 1px #99999946;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        transition: 0.5s;
+    }
+
+    .card-one .location{
+        display: block;
+        margin: 0 0 10px 0;
+        text-align: center;
+        font-size: 14px;
+        font-weight: normal;
+        font-weight: 500;
+    }
+
+    .card-one p{
+        font-size: 13px;
+        font-family: 'Montserrat';
+    }
+
+    .card-one h4{
+        margin-bottom:  0px;
+    }
+
+     .card-one button{
+         border: none;
+         padding: 7px 15px 8px;
+         border-radius: 3px;
+         font-size: 14px;
+         font-weight: 600;
+         color: white;
+         margin-top: 10px;
+     }
+
+     
+}
+
+@media (max-width: 600px){
+    
+    .card-one{
+        margin-right: auto;
+        margin-left: auto;
+        background: rgb(255, 255, 255);
+        box-shadow: 0 0 10px 0 rgb(238, 238, 238);
+        background: white;
+        border-radius: 5px;
+        border: solid 1px #99999946;
+        padding: 10px;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .card-one .location{
+        display: block;
+        margin: 0 0 10px 0;
+        text-align: center;
+        font-size: 14px;
+        font-weight: normal;
+        font-weight: 500;
+    }
+
+    .card-one p{
+        font-size: 13px;
+        font-family: 'Montserrat';
+    }
+
+    .card-one h4{
+        margin-bottom:  0px;
+    }
+
+     .card-one button{
+          border: none;
+         padding: 7px 15px 8px;
+         border-radius: 3px;
+         font-size: 14px;
+         font-weight: 600;
+         color: white;
+         margin-top: 10px;
+     }
+}
+
+
+
+.dark-card{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px 0 rgb(238, 238, 238);
+    background: white;
+    border-radius: 5px;
+    border: solid 1px #99999946;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.dark-card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 40px 0 rgba(109, 109, 109, 0.322);
+    transition: 0.5s;
+}
+
+.dark-card p.plang{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.dark-card h4{
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-transform: capitalize;
+    font-size: 27px;
+}
+
+.dark-card p.disc{
+    font-size: 14px;
+}
+
+.dark-card button{
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+
+/* design-card */
+.dribbble-container{
+    width: 50%;
+}
+
+.dribbble-container:hover{
+    box-shadow: 0 0 30px 0 #00000069;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+
+.dribbble-card{
+    width: 100%;
+}
